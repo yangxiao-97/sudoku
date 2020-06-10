@@ -24,7 +24,7 @@ function checkArray(array) {
   return marks;
 }
 
-const Toolkit = require("./toolkit");
+const Toolkit = require("./tool");
 //输入：matrix 用户完成的数独数据，9*9
 //处理：对matrix 行、列、宫进行检查，并填写marks
 //输出：检查是否成功、marks
